@@ -10,9 +10,9 @@ import Ethersjs from "../assets/imgs/etherjs.png";
 import Web3js from "../assets/imgs/web3js.png";
 import Truffle from "../assets/imgs/truffle.png";
 import Hardhat from "../assets/imgs/hardhat.png";
-import project1 from "../assets/imgs/projects/project-img1.png";
-import project2 from "../assets/imgs/projects/project-img2.png";
-import project3 from "../assets/imgs/projects/project-img3.png";
+import evoting from "../assets/imgs/projects/evoting.png";
+import ecualegal from "../assets/imgs/projects/ecualegal.png";
+import jobster from "../assets/imgs/projects/jobster.png";
 import contactIMG from "../assets/svg/contact-white.svg";
 import MATEOFLORESCV from "../assets/pdf/MATEOFLORES-CV.pdf";
 import "react-multi-carousel/lib/styles.css";
@@ -39,52 +39,28 @@ function Landing() {
   };
   const projects = [
     {
-      name: "Project One",
+      name: "Jobster",
       frontend: "FrontEnd: React.js",
       backend: "BackEnd: Express.js",
       data: "Data: MongoDB",
-      img: project1,
-      link: "#proj1",
+      img: jobster,
+      link: "https://jobster-cfae.onrender.com/",
     },
     {
-      name: "Project Two",
+      name: "Ecualegal",
       frontend: "FrontEnd: React.js",
       backend: "BackEnd: Express.js",
       data: "Data: MongoDB",
-      img: project2,
-      link: "#proj2",
+      img: ecualegal,
+      link: "https://ecualegal.netlify.app/",
     },
     {
-      name: "Project Three",
+      name: "EVoting",
       frontend: "FrontEnd: React.js",
-      backend: "BackEnd: Express.js",
-      data: "Data: MongoDB",
-      img: project3,
-      link: "#proj3",
-    },
-    {
-      name: "Project One",
-      frontend: "FrontEnd: React.js",
-      backend: "BackEnd: Express.js",
-      data: "Data: MongoDB",
-      img: project1,
-      link: "#proj1",
-    },
-    {
-      name: "Project Two",
-      frontend: "FrontEnd: React.js",
-      backend: "BackEnd: Express.js",
-      data: "Data: MongoDB",
-      img: project2,
-      link: "#proj2",
-    },
-    {
-      name: "Project Three",
-      frontend: "FrontEnd: React.js",
-      backend: "BackEnd: Express.js",
-      data: "Data: MongoDB",
-      img: project3,
-      link: "#proj3",
+      backend: "BackEnd: Express.js, Ethereum, Solidity",
+      data: "Data: MongoDB, Ethereum, Solidity",
+      img: evoting,
+      link: "https://evoting-dapp.netlify.app/",
     },
   ];
   return (
@@ -99,10 +75,14 @@ function Landing() {
               blobkchain developer.
             </h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              As a developer in Frontend and Blockchain, and Data Science student, my
+              goal is to apply my skills and knowledge to create innovative solutions
+              that meet the needs of users and the company. I seek to work in a
+              challenging environment where I can learn and grow professionally,
+              while contributing to the success of the company. I strive to stay
+              updated on the latest technologies and tools in these areas and am
+              committed to continuously improving my skill set to achieve optimal
+              results.
             </p>
           </div>
           <div className="animate-zoom-in">

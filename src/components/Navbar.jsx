@@ -30,8 +30,8 @@ function Navbar() {
 
   return (
     <header className={scrolled ? "scrolled" : ""}>
-      {/* <img src="" alt="logo" /> */}
-      <h1>LOGO</h1>
+      {/* <img src={logo} alt="logo" /> */}
+      <h1>Mateo Flores</h1>
       <nav>
         <p onClick={()=>scrollSkills()}>Skills</p>
         <p onClick={()=>scrollProjects()}>Projects</p>
